@@ -1,0 +1,30 @@
+.ann-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.selectRole {
+  margin: 10px;
+}
+
+.dropdown-menu {
+  width: max-content;
+}
+
+.filter-admin-btn {
+  margin-left: 30px;
+}
+
+.filter-menu-admin {
+  margin-left: 50px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.search-filter {
+  margin-left: 30px;
+}

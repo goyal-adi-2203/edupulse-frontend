@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.aboutus-heading{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    color: #0C356A;
+  
+}
+.aboutus-row{
+    display: flex;
+    justify-content: center;
+}
+.aboutus-card img{
+    transition: 0.5s ease;
+}
+.aboutus-card:hover img{
+    transform: scale(1.2);
+}

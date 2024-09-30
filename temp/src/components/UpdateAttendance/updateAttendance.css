@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+
+#ViewAttendance {
+    display: flex;
+    /* width: 100vw; */
+    /* flex-direction: row; */
+}
+
+.classAttendance {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+.classHeading {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(247, 192, 124, 0.885);
+    box-shadow: 5px 1px 5px black;
+}
+
+.student-list-update-heading {
+    color: #fff;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+}
+
+.attendanceList {
+    height: 100%;
+    width: 100%;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#totPresent {
+    border-top: 1px solid black;
+}
+
+#totPresent .totPresent1 {
+    border-right: none;
+}
+
+.button-89 {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    padding-right: 5%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.button-89::before {
+    content: "";
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #5ee9ec 0%, #07728a 100%);
+    transition: 0.5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.button-89:hover::before {
+    width: 9em;
+}
+
+.table-attendance-update {
+    border: 2px solid rgb(11, 86, 198);
+    border-radius: 40px;
+    width: 90%;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+    background-color: #fff;
+}
+
+.updateAttendance-th {
+    font-size: 1.25rem;
+    padding: 10px;
+    border: none;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.updateAttendance-td {
+    text-align: center;
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+    border: none;
+    font-size: 1.05rem;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+
+
+.onleave-btn{
+    /* transition: background-color 1000ms linear; */
+    /* background-color: #E8E8E8; */
+    transition:all .5s ease-out;
+}
+
+.btn-tranition {
+    background-color: red;
+    font-size: 40px;
+}
+
+.attendance-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+.button-55 {
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: 0.75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-55:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+
+.attendance-stu-name{
+    cursor: pointer;
+}
+
+.attendance-stu-name:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,105 @@
+.leave-req-heading {
+    font-family: "Lato", sans-serif;
+    margin-top: 2%;
+    font-size: 45px;
+    color: #071952;
+}
+
+.dlt-leave-btn-container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.dlt-leave-btn{
+    margin: 0% 1% 1% 0%;
+}
+
+.leave-reqs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leave-req-table {
+    border-color: rgb(11, 86, 198);
+    width: 90%;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+    background-color: #fff;
+}
+
+.leave-req-th {
+    border: none;
+    font-size: larger;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    position: relative;
+}
+
+.border-limit {
+    border-left: 2px solid white;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    bottom: 20%;
+}
+
+.leave-req-td {
+    text-align: center;
+    border-bottom: 2px solid;
+    font-family: "Lato", sans-serif;
+    border-color: #053b50;
+    color: #191717;
+    border-right: none;
+    font-weight: bold;
+}
+
+.leave-req-col-head {
+    background-color: #071952;
+    color: #fff;
+}
+
+.leave-action-btn {
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #fff;
+    border: none;
+    background-color: #fff;
+}
+
+.leave-accept {
+    color: rgb(11, 233, 11);
+}
+
+.leave-denied {
+    color: rgb(234, 32, 32);
+}
+
+.leave-reason {
+    position: relative;
+}
+
+.leave-reason .leave-reason-expanded {
+    word-wrap: break-word;
+    text-align: left;
+    padding: 10%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(108, 177, 233);
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+    border-radius: 15%;
+}
+
+.leave-reason:hover .leave-reason-expanded {
+    visibility: visible;
+}

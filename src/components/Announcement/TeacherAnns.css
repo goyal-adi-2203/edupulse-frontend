@@ -1,0 +1,80 @@
+.ann-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.selectRole {
+    margin: 10px;
+}
+
+.dropdown-menu {
+    width: max-content;
+}
+
+.filter-admin-btn {
+    margin-left: 30px;
+}
+
+.filter-menu-admin {
+    margin-left: 50px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.search-filter {
+    margin-left: 30px;
+}
+
+.teacher-announcement-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+
+.dlt-success {
+    position: absolute;
+    width: 25%;
+    height: 40%;
+    top: 30%;
+    left: 37%;
+    background: rgb(203, 188, 188);
+    background: radial-gradient(circle, rgba(203, 188, 188, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(224, 208, 208, 1) 85%, rgba(239, 233, 233, 1) 93%, rgba(237, 229, 229, 1) 100%);
+    z-index: 100;
+    transition: all 1s;
+    translate: 0px -2000px;
+    border-radius: 10%;
+    border: 2px solid #332d2d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.central-success-icon {
+    display: flex;
+    font-size: 5.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.submit-success-statement {
+    display: flex;
+    justify-content: center;
+}
+
+#close-popup-dlt-success {
+    color: red;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,31 @@
+.Navbar-main{
+    background-color: #383C53;
+}
+
+
+.navbar-heading{
+    color: #E5D2CB;
+}
+
+#collasible-nav-dropdown{
+    color: #E5D2CB;
+}
+
+.offcanvas-background{
+    background-color: #383C53;
+    /* height: fit-content; */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("./list.svg") !important;
+}
+
+.offcanvas-panel{
+    --var-color: #E5D2CB;
+}
+
+@media only screen and (max-width: 768px) {
+    .offcanvas-panel{
+        --var-color: red;
+    }
+}

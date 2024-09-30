@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+
+#ViewMarks {
+  display: flex;
+}
+
+.studentMarks {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.table-marks {
+  border-color: rgb(11, 86, 198);
+  width: 90%;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+  background-color: #fff;
+}
+
+.viewMarks-th {
+  border: none;
+  font-size: larger;
+  padding: 10px;
+  justify-content: center;
+  color: #053b50;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  border-color: #053b50;
+}
+
+.viewMarks-td {
+  text-align: center;
+  border-bottom: 2px solid;
+  font-family: "Lato", sans-serif;
+  border-color: #053b50;
+  color: #191717;
+  border-right: none;
+  font-weight: bold;
+}
+.remark {
+  border-bottom: none;
+}
+
+.subjects {
+  font-weight: bold;
+}
+.marks-heading {
+  font-family: "Lato", sans-serif;
+  font-size: 45px;
+  color: #071952;
+}
+.percent-marks {
+  color: #053b50;
+  padding-top: 1%;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+.status-marks {
+  font-size: 22px;
+  color: #053b50;
+}
+
+@media print {
+  @page {
+    size: landscape;
+  }
+}

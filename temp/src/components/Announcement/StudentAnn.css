@@ -1,0 +1,9 @@
+.student-announcement-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+}

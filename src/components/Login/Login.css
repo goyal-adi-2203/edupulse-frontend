@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.Login-main {
+  font-family: Roboto, HeAlvetica, Arial, sans-serif;
+    background-color: #CBAFAA;
+    color: #fff;
+    padding: 0;
+}
+
+.login-passwd-input{
+    display: flex;
+}
+
+.password-visible{
+    width: 45px;
+    height: 45px;
+    background: none;
+    border: none;
+}
+
+@media (min-width: 1025px) {
+  .h-custom-2 {
+    height: 100%;
+    }
+  }
+  .login-button{
+    background-color: #383C53 !important;
+  }

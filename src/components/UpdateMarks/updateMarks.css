@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+
+#ViewMarks {
+    display: flex;
+    /* width: 100vw; */
+    /* flex-direction: row; */
+}
+
+.classMarks {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+.classHeading {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(247, 192, 124, 0.885);
+    box-shadow: 5px 1px 5px black;
+}
+
+/* Edit button  */
+.button-18 {
+    align-items: center;
+    background-color: #0a66c2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+        "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+        "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+        box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+        color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+    background-color: #16437e;
+    color: #ffffff;
+}
+
+.button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.button-18:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.markList {
+    height: 100%;
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-marks-update {
+    border-color: rgb(11, 86, 198);
+    width: 50%;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+    background-color: #fff;
+}
+
+.updateMarks-th {
+    font-size: larger;
+    padding: 10px;
+    border: none;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.update-marks-td {
+    text-align: center;
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+    border: none;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.td-input-update-marks {
+    text-align: center;
+    border: 2px solid #09223b;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    width: 85px;
+}
+
+.td-input-update-marks:focus {
+    border: 2px solid #4a9dec;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+}
+
+.student-list-update-heading {
+    color: #fff;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+}
+
+.button-89 {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    padding-right: 5%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.button-89::before {
+    content: "";
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #5ee9ec 0%, #07728a 100%);
+    transition: 0.5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.button-89:hover::before {
+    width: 9em;
+}
+
+.on-click-edit {
+    color: #fffdd0;
+}
+
+
+.submit-success{
+    position: absolute;
+    width: 25%;
+    height: 40%;
+    top: 30%;
+    left: 37%;
+    background: rgb(203, 188, 188);
+        background: radial-gradient(circle, rgba(203, 188, 188, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(224, 208, 208, 1) 85%, rgba(239, 233, 233, 1) 93%, rgba(237, 229, 229, 1) 100%);
+    z-index: 100;
+    transition: all 1s;
+    translate: 0px -2000px;
+    border-radius: 10%;
+    border: 2px solid #332d2d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.central-success-icon {
+    display: flex;
+    font-size: 5.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.submit-success-statement{
+    display: flex;
+    justify-content: center;
+}
+
+#close-popup-marks-success{
+    color: red;
+    font-size: 1.5rem;
+}
